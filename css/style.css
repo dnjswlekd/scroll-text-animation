@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  height: 300vh;
+}
+
+.text-box {
+  margin-top: 400px;
+  font-size: 78px;
+  font-family: "Bebas Nenu" serif;
+  line-height: 1.2;
+}
+.text-box .mask .text {
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white);
+  background-size: 0% 100%;
+}
